@@ -1,0 +1,30 @@
+/* Estilo moderno para o header */
+header {
+    background: linear-gradient(90deg, #3730a3 0%, #6366f1 100%);
+    padding: 1.2rem 0;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(255,152,0,0.10);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: 600;
+    padding: 0.5rem 1.2rem;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+
+nav a:hover {
+    background: rgba(255,255,255,0.18);
+    color: #3730a3;
+    transform: translateY(-2px) scale(1.05);
+}
